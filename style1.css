@@ -1,0 +1,125 @@
+*{
+font-family: cursive;
+}
+
+ /*   .ori{
+
+        top: 4%;
+        width: 50%;
+        text-align: center;
+        font-size: 40em;
+        color: blue;
+        letter-spacing: 0.1em;
+        font-family: 'Pacifico', cursive;
+        background: -webkit-linear-gradient(#ffff00, #ff1493);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: hue 3s infinite ease-in-out;
+    }
+    
+    @-webkit-keyframes animaten {
+        0% {
+            -webkit-filter: hue-rotate(0deg);
+            transform: scale(1) rotate(0deg);
+        }
+    
+        50% {
+            -webkit-filter: hue-rotate(360deg);
+            transform: scale(1.2) rotate(360deg);
+        }
+    }*/
+    .ori{
+
+        top: 4%;
+        width: 50%;
+        text-align: center;
+        font-size: 6em;
+        color: blue;
+        letter-spacing: 0.1em;
+        font-family: 'Pacifico', cursive;
+        background: -webkit-linear-gradient(#ffff00, #ff1493);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: hue 3s infinite ease-in-out;
+    }
+
+    @-webkit-keyframes hue {
+        0% {
+            -webkit-filter: hue-rotate(0deg);
+           
+        }
+    
+        50% {
+            -webkit-filter: hue-rotate(360deg);
+            transform: translate(100%) ;
+        }
+    }
+.new{
+    display: flex;
+     justify-content:space-between;
+     flex-flow:wrap;
+     font-size: 20px;
+     font-family: sans-serif;
+     font-weight: 400;
+     color:black;
+}
+    .new img{
+        border: 2px solid black;
+        border-radius: 170px;
+
+    }
+    .panda img{
+        border-radius: 20px;
+        background-color:white;
+        width: 170px;
+        font-family: fantasy;
+        
+    }
+    .chameleon img{
+        border-radius: 20px;
+        background-color:white;
+        width: 170px;
+        font-family: fantasy;
+    }
+    .camel img{
+        border-radius: 20px;
+        background-color:white;
+        width: 170px;
+        font-family: fantasy;
+    }
+    .cicada img{
+        border-radius: 20px;
+        background-color:white;
+        width: 170px;
+        font-family: fantasy;
+    }
+    .piegon img{
+        border-radius: 20px;
+        background-color:white;
+        width: 170px;
+        font-family: fantasy;
+    }
+    .teddy img{
+        border-radius: 20px;
+        background-color:white;
+        width: 170px;
+        font-family: fantasy;
+    }
+body{
+margin: 0;
+padding: 0;
+background-image: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8644ad);
+background-size: 400%;
+animation: bganimation 15s infinite;
+} 
+@keyframes bganimation{
+0%{
+    background-position: 0% 50%;
+}
+50%{
+    background-position: 100% 50%;
+}
+100%{
+    background-position: 0% 50%;
+}
+}
